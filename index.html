@@ -29,128 +29,108 @@
       </header>
       <!-- Video -->
       <div class="video">
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY"
-        >
-        </iframe>
+        <video src="https://www.youtube.com/watch?v=67stn7Pu7s4&t=212s"> </video>
       </div>
-      <!-- Video Description -->
-      <div class="video-description">
-        <div class="hashtag">
-          <ul>
-            <li><a href="#">#DreamCoding</a></li>
-            <li><a href="#">#DreamCoders</a></li>
-            <li><a href="#">#Ellie</a></li>
-          </ul>
-        </div>
-        <div class="title">
-          <h1>
-            Clone Coding: Youtube Moblie Website 유튜브 모바일 웹사이트
-            따라만들기
-          </h1>
-          <i class="fas fa-caret-down"></i>
-        </div>
-        <div class="view-date">
-          <li>1M views</li>
-          <li>1 month ago</li>
-        </div>
-        <div class="icons">
-          <div>
-            <i class="fas fa-thumbs-up"></i>
-            <p>1.9K</p>
+      <div class="mediaQueryContainer">
+        <div class="mediaQuery1">
+          <!-- Video Description -->
+          <div class="video-description">
+            <div class="hashtag">
+              <ul>
+                <li><a href="#">#DreamCoding</a></li>
+                <li><a href="#">#DreamCoders</a></li>
+                <li><a href="#">#Ellie</a></li>
+              </ul>
+            </div>
+            <div class="title">
+              <h1>
+                Clone Coding: Youtube Moblie Website 유튜브 모바일 웹사이트
+                따라만들기
+              </h1>
+              <i class="fas fa-caret-down"></i>
+            </div>
+            <div class="view-date">
+              <li>1M views</li>
+              <li>1 month ago</li>
+            </div>
+            <div class="icons">
+              <div>
+                <i class="fas fa-thumbs-up" id="thumbsUpBtn"></i>
+                <p>1.9K</p>
+              </div>
+              <div>
+                <i class="fas fa-thumbs-down" id="thumbsDownBtn"></i>
+                <p>0</p>
+              </div>
+              <div>
+                <i class="fas fa-share"></i>
+                <p>share</p>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+                <p>Save</p>
+              </div>
+              <div>
+                <i class="fas fa-flag"></i>
+                <p>Report</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <i class="fas fa-thumbs-down"></i>
-            <p>0</p>
-          </div>
-          <div>
-            <i class="fas fa-share"></i>
-            <p>share</p>
-          </div>
-          <div>
-            <i class="fas fa-plus"></i>
-            <p>Save</p>
-          </div>
-          <div>
-            <i class="fas fa-flag"></i>
-            <p>Report</p>
-          </div>
+          
+            <!-- Nametag -->
+  
+            <div class="nametag">
+              <div class="userinfo">
+                <i class="fas fa-user" id="userProfile"></i>
+                <div class="userinfo__detail">
+                  <p id="username">Username</p>
+                  <p id="subscriber">20K subscribers</p>
+                </div>
+              </div>
+              <div class="subscribe">
+                <button id="subBtn">Subscribe</button>
+              </div>
+            </div>
+            <div class="description">
+              <p id="pubDate">Published on May 12, 2020</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut porro
+                quos officia voluptatem commodi, blanditiis, doloremque mollitia
+                neque repellat nulla cupiditate iste culpa, eaque numquam quas.
+                Recusandae distinctio alias vero?
+              </p>
+            </div>
         </div>
-      </div>
-      <!-- Nametag -->
-      <div class="nametag">
-        <div class="userinfo">
-          <i class="fas fa-user" id="userProfile"></i>
-          <div class="userinfo__detail">
-            <p id="username">Username</p>
-            <p id="subscriber">20K subscribers</p>
-          </div>
-        </div>
-        <div class="subscribe">
-          <button id="subBtn">Subscribe</button>
-        </div>
-      </div>
-      <div class="description">
-        <p id="pubDate">Published on May 12, 2020</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut porro quos
-          officia voluptatem commodi, blanditiis, doloremque mollitia neque
-          repellat nulla cupiditate iste culpa, eaque numquam quas. Recusandae
-          distinctio alias vero?
-        </p>
-      </div>
-      <!-- Other Videos -->
-      <div class="otherVideos">
-        <p id="upNext">Up next</p>
-        <div class="videos">
-          <img src="thumbnail.jpg" alt="thumbnails" />
-          <div class="videoinfo">
-            <i class="fas fa-user" id="userProfile"></i>
-            <div class="nextVideos">
-              <h1>프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면?</h1>
-              <div class="nextVideoInfo">
-                <li>Username</li>
-                <li>&#9679; 2K views</li>
-                <li>&#9679; 3 months ago</li>
+          <div class="mediaQuery2">
+            <!-- Other Videos -->
+            <div class="otherVideos">
+              <p id="upNext">Up next</p>
+              <div class="videos">
+                <img src="thumbnail.jpg" alt="thumbnails" />
+                <div class="videoinfo">
+                  <div class="nextVideos">
+                    <div class="nextVideoTitle">
+                      <h1>프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면?</h1>
+                      <i class="fas fa-ellipsis-v" id="nxtVideoDots"></i>
+                    </div>
+                    <div class="nextVideoInfo">
+                      <div class="videoInfoDivided1">
+                        <li id="usernameNextVideo">Username</li>
+                      </div>
+                      <div class="videoInfoDivided2">
+                        <li>2K views</li>
+                        <li>&#9679; 3 months ago</li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="otherVideos">
-      <div class="videos">
-        <img src="thumbnail.jpg" alt="thumbnails" />
-        <div class="videoinfo">
-          <i class="fas fa-user" id="userProfile"></i>
-          <div class="nextVideos">
-            <h1>프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면?</h1>
-            <div class="nextVideoInfo">
-              <li>Username</li>
-              <li>&#9679; 2K views</li>
-              <li>&#9679; 3 months ago</li>
-            </div>
-          </div>
-        </div>
+  
       </div>
-    </div>
-    <div class="otherVideos">
-      <div class="videos">
-        <img src="thumbnail.jpg" alt="thumbnails" />
-        <div class="videoinfo">
-          <i class="fas fa-user" id="userProfile"></i>
-          <div class="nextVideos">
-            <h1>프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면?</h1>
-            <div class="nextVideoInfo">
-              <li>Username</li>
-              <li>&#9679; 2K views</li>
-              <li>&#9679; 3 months ago</li>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <script src="app.js"></script>
   </body>
 </html>
